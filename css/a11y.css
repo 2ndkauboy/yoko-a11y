@@ -1,0 +1,16 @@
+#branding #mainnav ul ul {
+	display: block;
+	opacity: 1;
+}
+
+#branding #mainnav ul li:not(.focus):not(:hover) > ul {
+	position: absolute;
+	left: -999em !important;
+	opacity: 0 !important;
+}
+
+#branding #mainnav ul li a:focus,
+#branding #mainnav ul li a.focus {
+	background:#F0F0F0;
+	color: #999;
+}
